@@ -41,6 +41,7 @@ div {
 }
 .start h1, .start h2 {
     margin: 1% 0 1% 0;
+    width: 100%;
 }
 
 @keyframes animate {
