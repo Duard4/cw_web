@@ -1,0 +1,54 @@
+body {
+    background-image: url("../img/leaves.avif");
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+main {
+    max-width: 50%;
+    height: 96vh;
+    margin: 1% 0 1% 0;
+    background-image: url("../img/green-leaves.jpg");
+
+}
+
+h2 {
+    text-align: center;
+}
+div {
+    width: 30%;
+}
+
+.card, .start {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 0 40px;
+    color:rgb(249, 249, 245);
+    animation: animate 5s linear infinite;
+    text-shadow: 0 0 50px rgb(236, 245, 70), 0 0 100px rgb(249, 60, 208),
+    0 0 100px rgb(252, 46, 46), 0 0 100px rgb(241, 130, 97);
+}
+
+
+.start{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+.start h1, .start h2 {
+    margin: 1% 0 1% 0;
+}
+
+@keyframes animate {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
